@@ -12,6 +12,6 @@ export default async function handler(req, res) {
   return res.status(200).json({
     status: 'success',
     message: 'Recebido com sucesso!',
-    dados: { url, mediaKey, mimetype },
+    dados: { url, mediaKey, mimetype }
   });
 }
